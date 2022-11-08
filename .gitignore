@@ -1,0 +1,86 @@
+# # Configuración de usuario
+xcuserdata /
+
+# # compatibilidad con Xcode 8 y versiones anteriores (ignorando que no es necesario iniciar Xcode 9)
+* .xcscmblueprint
+* .xccheckout
+
+# # compatibilidad con Xcode 3 y versiones anteriores (ignorando que no es necesario iniciar Xcode 4)
+construir /
+Datos derivados /
+* .apartado
+* .pbxusuario
+! predeterminado.pbxuser
+* .mode1v3
+! predeterminado.mode1v3
+* .modo2v3
+! predeterminado.mode2v3
+* .perspectivav3
+! predeterminado.perspectivav3
+
+# # Obj-C/específico de Swift
+* .hmap
+
+# # Empaquetado de la aplicación
+* .ipa
+* .dSYM.zip
+* .dSYM
+
+# # Patios de recreo
+línea de tiempo.xclínea de tiempo
+patio de recreo.xcworkspace
+
+# Administrador de paquetes Swift
+#
+# Agregue esta línea si desea evitar verificar el código fuente de las dependencias de Swift Package Manager.
+# Paquetes/
+# Paquete.pins
+# Paquete.resuelto
+# *.xcodeproj
+#
+# Xcode genera automáticamente este directorio con un archivo .xcworkspacedata y xcuserdata
+# por lo tanto, no es necesario a menos que haya agregado un archivo de configuración de paquete a su proyecto
+# .swiftpm
+
+.construir /
+
+# vainas de cacao
+#
+# Recomendamos no agregar el directorio Pods a su .gitignore. Sin embargo
+# debe juzgar por sí mismo, los pros y los contras se mencionan en:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# vainas/
+#
+# Agregue esta línea si desea evitar verificar el código fuente desde el espacio de trabajo de Xcode
+# *.xcespacio de trabajo
+
+# Cartago
+#
+# Agregue esta línea si desea evitar verificar el código fuente de las dependencias de Carthage.
+# Cartago/Caja
+
+Cartago / Construir /
+
+# Gestión de dependencias Accio
+Dependencias /
+.accio /
+
+# vía rápida
+#
+# Se recomienda no almacenar las capturas de pantalla en el repositorio de git.
+# En su lugar, use fastlane para volver a generar las capturas de pantalla cuando sea necesario.
+# Para obtener más información sobre la configuración recomendada, visite:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+vía rápida / informe.xml
+vía rápida / Vista previa.html
+fastlane / capturas de pantalla / ** / * .png
+vía rápida / test_output
+
+# Inyección de código
+#
+# Después de las nuevas herramientas de inyección de código, se genera una carpeta /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject /
